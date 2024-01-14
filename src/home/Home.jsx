@@ -1,7 +1,7 @@
-import logo from './logo.svg';
-import './App.css';
+import "./Home.scss";
+import logo from "../assets/logo.svg";
 
-function App() {
+const Home = () => {
   return (
     <div className="App">
       <header className="App-header">
@@ -20,6 +20,6 @@ function App() {
       </header>
     </div>
   );
-}
+};
 
-export default App;
+export default Home;
